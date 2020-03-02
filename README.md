@@ -1,2 +1,5 @@
 # k-Nearest-Neighbor-Imputation
 KNN Imputation using VIM library in R Language
+Dealing with the problem of missing data with the help of K Nearest Neighbor Imputation. As missing data can be a problem while doing data analysis and predictions in machine learning and data science fields. 
+K Nearest Neighbor Algorithm is a balance between the accuracy and speed to impute every type of high dimensional data.
+In this project, R programming is done to read missing. It further visualise the missing data patterns. Then, impute the missing data with the help of R package VIM. Further, it compares original dataset with imputed dataset by calculating Normalized Root Mean Square Error (NRMS). KNN predict the missing values by k number of nearest neighbors. Here, we have total twenty-six datasets of mixed, numerical and categorical type; and each dataset have further fourty-four subsets of missing patterns. KNNI accurately impute the datasets which is further evaluated by calculating NRMS and Accuracy values.
